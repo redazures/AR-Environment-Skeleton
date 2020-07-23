@@ -1,10 +1,9 @@
-Student.create(name: "Melissa","Jones", grade: "10th")
-Student.create(name: "April","lee", grade: "10th")
-Student.create(name: "Luke","wilsone", grade: "9th")
-Student.create(name: "Devon","chan", grade: "11th")
-Student.create(name: "Sarah","thai", grade: "10th")
+# mel= Student.create(first_name: "Melissa",last_name:"Jones", grade_level: "10th")
+# april=Student.create(first_name: "April",last_name:"lee", grade_level: "10th")
+# luke= Student.create(first_name: "Luke",last_name:"wilsone", grade_level: "9th")
+# devon= Student.create(first_name: "Devon",last_name:"chan", grade_level: "11th")
+sara2h= Student.create(first_name: "Sarah2",last_name:"thai",grade_level: "10th")
 
-Teacher.create(name: "Ms.Lisa", grade: "10th",years_of_experience:5)
-Teacher.create(name: "Ms. April", grade: "10th",years_of_experience:7)
-
-
+# Teacher.create(last_name: "Ms.Lisa", grade_level:"10th",years_of_experience: 5)
+# Teacher.create(last_name: "Ms. April", grade_level:"10th",years_of_experience: 7)
+#belongs to one side #and one has man will get that methods 

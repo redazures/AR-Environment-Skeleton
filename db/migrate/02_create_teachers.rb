@@ -7,7 +7,3 @@ class CreateTeachers < ActiveRecord::Migration[6.0]
         end
     end
 end
-
-#Active Record created Student.all method for us 
-#Students first_name will require us to create a method for it
-#Student.all_in_grade will need to be created by us

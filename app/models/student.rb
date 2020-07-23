@@ -1,4 +1,7 @@
 class Student < ActiveRecord::Base
+    has_many :grade
+    has_many :teachers, through: :grade
+
     def full_name
         "#{self.first_name} #{self.last_name}"
     end

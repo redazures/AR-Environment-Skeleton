@@ -1,6 +1,7 @@
 Student.delete_all
 Teacher.delete_all
 Grade.delete_all
+Lecture.delete_all
 
 # s1= Student.create(first_name: "s1",last_name:"Jones", grade_level: "9th")
 # s2= Student.create(first_name: "s2",last_name:"lee", grade_level: "9th")
@@ -23,3 +24,8 @@ s6= Student.create(first_name: "s6",last_name:"choo",grade_level: "10th")
 t4 = Teacher.create(last_name: "t4", grade_level:"10th",years_of_experience: 13)
 grade10= Grade.create(student_id: s5.id,teacher_id: t4.id)
 grade10= Grade.create(student_id: s6.id,teacher_id: t4.id)
+
+lecture1 = Lecture.create(name: "Marine Biology", subject: "Science")
+lecture2 = Lecture.create(name: "Astrophysics", subject: "Quantum Physics")
+
+
